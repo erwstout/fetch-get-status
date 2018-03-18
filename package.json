@@ -1,6 +1,6 @@
 {
   "name": "fetch-get-status",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple error handling for fetch.",
   "main": "dist/index.js",
   "repository": "git@github.com:erwstout/fetch-get-status.git",

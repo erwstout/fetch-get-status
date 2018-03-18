@@ -4,7 +4,7 @@
  * simple error handling for fetch
 * */
 
-function fetchCheckStatus(response) {
+function fetchGetStatus(response) {
   if (response.status >= 200 && response.status < 300 ) {
    return response
   } else {
@@ -14,4 +14,4 @@ function fetchCheckStatus(response) {
   }
 }
 
-export default fetchCheckStatus;
+export default fetchGetStatus;
