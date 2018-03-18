@@ -3,11 +3,11 @@ A small helper to check a status of a fetch.
 
 ## Usage
 ```js
-import fetchCheckStatus from 'fetch-check-status';
+import fetchGetStatus from 'fetch-get-status';
 
 doSomething() {
   fetch(someURL)
-  .then(fetchCheckStatus)
+  .then(fetchGetStatus)
   .then(response => doSomethingElse(response))
 }
 ```
